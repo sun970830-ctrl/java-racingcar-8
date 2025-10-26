@@ -7,7 +7,7 @@ public class CarName {
 
     public CarName(String name) {
         if (name.length() > maxNameLength) {
-            throw new IllegalArgumentException("차 이름을" + + maxNameLength + "넘길수없습니다" );
+            throw new IllegalArgumentException("차 이름을" +  maxNameLength + "넘길수없습니다" );
         }
         this.value = name;
     }
