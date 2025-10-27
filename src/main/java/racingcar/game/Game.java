@@ -10,7 +10,7 @@ public class Game {
         this.cars = cars;
     }
 
-    public void playOne() {
+    public void play() {
         for (Car c : cars) {
             c.moveIf(Rule.RandomGo());
         }
